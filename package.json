@@ -9,16 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "framer-motion": "^12.4.10",
-=======
     "@radix-ui/react-slider": "^1.2.3",
     "@radix-ui/react-slot": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
->>>>>>> a6a6476da3e9faf3c38ed7f1f2023c64ad9f9a51
     "lucide-react": "^0.479.0",
     "next": "15.2.1",
     "react": "^19.0.0",
