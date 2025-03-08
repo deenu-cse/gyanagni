@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { NavigationMenuDemo } from '../app/page-ui/nav'
+
 import { HeroDemo } from '../app/page-ui/hero'
 import { FeaturesSectionWithHoverEffectsDemo } from '../app/page-ui/ourresume'
 import { Logos3Demo } from '../app/page-ui/topcompany'

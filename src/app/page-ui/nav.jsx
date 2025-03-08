@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 "use client"
 
 import * as React from "react"
@@ -141,15 +141,3 @@ const ListItem = React.forwardRef(({ className, title, children, ...props }, ref
     )
 })
 ListItem.displayName = "ListItem"
-=======
-import React from "react";
-import { NavBar } from "../../components/ui/tubelight-navbar";
-
-export default function nav() {
-  return (
-    <>
-      <NavBar />
-    </>
-  );
-}
->>>>>>> 97f217d9f8a0711045ae6bc1f553b82ded82183f

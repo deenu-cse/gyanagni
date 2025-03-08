@@ -6,7 +6,6 @@ import { cn } from "@/lib/utils";
 import {
   IconBrandGithub,
   IconBrandGoogle,
-  IconBrandOnlyfans,
 } from "@tabler/icons-react";
 import { toast, ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
@@ -14,7 +13,6 @@ import axios from "axios";
 
 
 export function SignupForm() {
-  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -43,9 +41,7 @@ export function SignupForm() {
     } catch (error) {
       console.error(error);
       // toast.error(error.response?.data?.error || "Registration failed.");
-    } finally {
-      setLoading(false);
-    }
+    } 
   };
 
   return (
